@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+section.Header {
+  display: flex;
+  z-index: 1;
+  margin: 1rem;
+  margin-left: 2rem;
+  margin-right: 51%;
+  border-style: solid;
+  border-color: blue;
+  padding-left: 12%;
+}
+
+section.Header2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 300px;
+  border-style: solid;
+  border-color: blue;
+  margin-top: 1rem;
+}
+
+section.Search {
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 51%;
+  border-style: solid;
+  border-color: green;
+  width: 395px;
+}
+
+section.Employee {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  margin-right: 51%;
+  border-style: solid;
+  border-color: red;
+}
+
+img {
+  float: left;
+  margin: 0 0 0 24px;
+}
+
+.EmployeeListItem-title {
+  margin-left: 60px;
+}
